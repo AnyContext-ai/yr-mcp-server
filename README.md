@@ -4,7 +4,7 @@
 
 ![alt text](Met_RGB_Horisontal-100.jpg)
 
-### Setup environment
+## Setup environment using uv
 
 #### Windows
 ```
@@ -41,9 +41,22 @@ uv pip install -r pyproject.toml
 uv run yr.py
 ```
 
+
+## Setup environment using pip
+
 ### Create requirements.txt for installing dependencies via pip
 ```
 uv pip freeze > requirements.txt
+```
+
+### Install dependencies
+```
+pip install -r requirements.txt
+```
+
+### Run server
+```
+python yr.py
 ```
 
 
