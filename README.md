@@ -41,5 +41,10 @@ uv pip install -r pyproject.toml
 uv run yr.py
 ```
 
+### Create requirements.txt for installing dependencies via pip
+```
+uv pip freeze > requirements.txt
+```
+
 
 
