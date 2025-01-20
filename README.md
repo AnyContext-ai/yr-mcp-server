@@ -4,9 +4,31 @@
 
 ![alt text](Met_RGB_Horisontal-100.jpg)
 
-### Activate virtual environment (windows)
+### Setup environment
+
+#### Windows
 ```
-.venv/Scripts/activate
+# Install uv
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Create virtual environment
+uv venv
+
+# Activate virtual environment
+.venv\Scripts\activate
+```
+
+#### Linux
+
+```
+# Install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Create virtual environment
+uv venv
+
+# Activate virtual environment
+source .venv/bin/activate
 ```
 
 ### Install dependencies
