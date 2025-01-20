@@ -6,7 +6,7 @@
 
 ### Activate virtual environment (windows)
 ```
-.venv/Scripts/active
+.venv/Scripts/activate
 ```
 
 ### Install dependencies
