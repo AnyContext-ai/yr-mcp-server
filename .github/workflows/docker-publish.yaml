@@ -23,8 +23,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner }}/your-image-name:latest .
+          docker build -t ghcr.io/anycontext-ai/yr-mcp-server:latest .
 
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/yr-mcp-server:latest
+          docker push ghcr.io/anycontext-ai/yr-mcp-server:latest
